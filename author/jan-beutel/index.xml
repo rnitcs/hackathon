@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jan Beutel | RNIT</title>
+    <link>/author/jan-beutel/</link>
+      <atom:link href="/author/jan-beutel/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jan Beutel</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>/author/jan-beutel/avatar_hu340eff21790a3b9dd2e40b0d85567e22_29450_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Jan Beutel</title>
+      <link>/author/jan-beutel/</link>
+    </image>
+    
+  </channel>
+</rss>

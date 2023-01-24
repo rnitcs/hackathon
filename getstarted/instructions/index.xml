@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hackathon Task | RNIT</title>
+    <link>/getstarted/instructions/</link>
+      <atom:link href="/getstarted/instructions/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hackathon Task</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 21 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Hackathon Task</title>
+      <link>/getstarted/instructions/</link>
+    </image>
+    
+    <item>
+      <title>Packet Tracer</title>
+      <link>/getstarted/instructions/packet_tracer/</link>
+      <pubDate>Sun, 22 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>/getstarted/instructions/packet_tracer/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+Packet Tracer, also referred to as Cisco Packet Tracer, is a network simulation software developed by Cisco Systems. It allows users to design, configure, and simulate network topologies, including various Cisco devices and protocols such as BGP. Packet Tracer is commonly used in computer networking education and training, as well as for network design and troubleshooting. 
+&lt;/p&gt; 
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+	This overview of the packet tracer is in no way a comprehensive tutorial. Visit the official Cisco website for comprehensive and in-depth Packet Tracer information.
+&lt;/p&gt;
+&lt;h2 id=&#34;packet-tracer-environment&#34;&gt;Packet Tracer Environment&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+	Packet Tracer provides a graphical user interface (GUI) that allows users to design, configure, and simulate network topologies. Figure 1 shows the GUI interface of the Packet Tracer. The interface includes a variety of tools and features that make it easy to design and test network configurations, including drag-and-drop functionality for adding devices, a visual representation of the network, and the ability to configure device settings and protocols. We will look into some of the important components that we can see in Figure 1.
+&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-1-packet-tracer-interface&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../packet_tracer_start_page.png&#34; alt=&#34;Figure 1: Packet Tracer Interface&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 1: Packet Tracer Interface
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+Figure 2 highlights the network components that are present on the bottom left corner of the Packet Tracer interface (see Figure 1). This is something that you will be using most often, and it contains all the required network devices, such as routers, switches, and end devices. 
+&lt;/p&gt; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-2-network-components&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../network_components.png&#34; alt=&#34;Figure 2: Network components&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 2: Network components
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+Packet Tracer provides both a logical and physical perspective, which is shown in Figure 3 and is located on the top left portion. The logical view is where you will spend the majority of your time configuring the network. Nevertheless, Packet Tracer also allows you to simulate networks based on geographic location (you can create cities or office at different location and connect) and also allows simulation of environmental data like temperature and soil moisture, as shown in Figure 4. In this hackathon, however, we will only work on logical mode.
+&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-3-network-views&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../logical_physical.png&#34; alt=&#34;Figure 3: Network views&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 3: Network views
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-4-environmental-data&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../physical-env.png&#34; alt=&#34;Figure 4: Environmental data&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 4: Environmental data
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+	Now that we&#39;ve examined the major Packet Tracer components, let&#39;s examine how to configure end devices and network components. To configure end devices or network components, click on the device, and a new configuration window will appear, as shown in Figure 5. Options vary depending on the types of network devices. Moreover, depending on the types of devices, additional features are also available. Figure 6 shows the additional options available for the end device, the desktop personal computer (PC).
+&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-5-configuration-of-end-device&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../config_details.png&#34; alt=&#34;Figure 5: Configuration of end device&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 5: Configuration of end device
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;&lt;/p&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-6-end-device-pc-options&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../pc_details.png&#34; alt=&#34;Figure 6: End device (PC) options&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 6: End device (PC) options
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;running-simulations&#34;&gt;Running Simulations&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+You can test your network once it has been configured. Two modes are available for this in Packet Tracer, namely, Realtime and Simulation, as highlighted in Figure 7. 
+&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-7-simulation-modes&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../simulation_mode.png&#34; alt=&#34;Figure 7: Simulation modes&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 7: Simulation modes
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+	You can use the protocal data unit (PDU) by selecting it from the top left corner of the Packet Tracer user interface, as shown in Figure 8, to test your network connection (or run the ping command via a terminal or command prompt). Figure 9, for example, shows a test using PDU. In order to test the connectivity, follow the following steps: (i) select PDU; (ii) drop PDU at the source, which in our case is PC0; (iii) drop at the destination to which you want to test your connection, which in our case is Server0; and (iv) run the simulation. Figure 9 further shows the test run in simulation mode.
+&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-8-protocol-data-unit&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../pdu_unit.png&#34; alt=&#34;Figure 8: Protocol Data Unit&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 8: Protocol Data Unit
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-9-protocol-data-unit-in-action&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../pdu_example.png&#34; alt=&#34;Figure 9: Protocol Data Unit in action&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 9: Protocol Data Unit in action
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;!-- &lt;p style=&#34;text-align: justify;&#34;&gt;&lt;/p&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;&lt;/p&gt; --&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-10--running-test-in-simulation-mode&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../simulation_test.png&#34; alt=&#34;Figure 10:  Running test in simulation mode&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 10:  Running test in simulation mode
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;getting-familiarisation&#34;&gt;Getting Familiarisation&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+If you want to familiarise yourself with or practise, you can download the exercise file and work on it according to the provided instructions. Additionally, video solutions are provided below for your assistance.
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;../ping_exercise.zip&#34; download&gt;Download the file for the first practise exercise&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Solution
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/EEFwg9_SnX0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;../ping_ii_router.zip&#34; download&gt;Download the file for the second practise exercise&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Solution
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/DAvnvBs-gzg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;troubleshooting--tips&#34;&gt;Troubleshooting &amp;amp; Tips&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+If you experience any issues, always check if everything is setup properly. For example, in the case of the router, you can use the command &lt;i style=&#34;color: red;&#34;&gt;show ip route&lt;/i&gt; to see all the routes set in router command line interface (CLI), as shown in the Figure 11. 
+&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-10--running-command-in-router-cli&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../cli.png&#34; alt=&#34;Figure 10:  Running command in router CLI&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 10:  Running command in router CLI
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+To configure using the CLI, you must first enable configuration mode. You can use the &lt;i style=&#34;color: red;&#34;&gt;config ter&lt;/i&gt; or &lt;i style=&#34;color: red;&#34;&gt;config t&lt;/i&gt; command. However, if you are unable to provde these commands, that means CLI is not enabled, which you can enable using &lt;i style=&#34;color: red;&#34;&gt;en&lt;/i&gt; command. 
+&lt;/p&gt;
+&lt;h2 id=&#34;useful-resources&#34;&gt;Useful Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ocw.cs.pub.ro/courses/_media/rl/rl_cheatsheet.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cheatsheet Packet Tracer/Cisco&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tutorials.ptnetacad.net/tutorials70.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Official Packet Tracer Tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gaia.cs.umass.edu/kurose_ross/index.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Computer Networking: a Top Down Approach, J.F. Kurose, K.W. Ross&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Task</title>
+      <link>/getstarted/instructions/task/</link>
+      <pubDate>Sun, 22 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>/getstarted/instructions/task/</guid>
+      <description>&lt;h2 id=&#34;scenario&#34;&gt;Scenario&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+You are a newly hired network engineer for a major corporation. The company is opening a new office in a different location and configuring the network so that all offices can connect seamlessly. Different engineers are located in various locations. You are responsible for setting up the network, including designing and configuring it at one of the locations, for example, Innsbruck. 
+&lt;p&gt;Using the provided Packet Tracer file, design and configure the network according to the outlined specifications.&lt;/p&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../hackathon_packet_tracer_file.zip&#34; download&gt;Download the Packet Tracer file&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
+ &lt;p style=&#34;text-align: justify;&#34;&gt;
+ 	&lt;ul&gt;
+ 		&lt;li&gt;Design a network with two autonomous systems (AS), namely, AS1 and AS2, and establish the connection between them. The AS1 should contain the three interconnected routers and the AS2, as shown in Figure 1. Further configuration instructions are provided below.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-1-autonomous-systems&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../router.png&#34; alt=&#34;Figure 1: Autonomous systems&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 1: Autonomous systems
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;ul&gt;
+	&lt;li&gt; &lt;b&gt;AS1&lt;/b&gt;
+		&lt;ul&gt;
+			&lt;li&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;Assign the number 1000 to AS1&#39;s AS number.&lt;/p&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;Assign the following names, RNITROUTERA, RNITROUTERB and RNITROUTERC, to the routers A, B, and C, respectively.&lt;/p&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;Configure the BGP protocol to connect to the AS2 and EIGRP for internal communication at the AS1. Use the following information to configure the routers:&lt;/p&gt;
+			&lt;table class=&#34;table&#34;&gt;
+&lt;thead&gt;
+  &lt;tr&gt;
+    &lt;th class=&#34;tg-1wig&#34;&gt;SRC&lt;/th&gt;
+    &lt;th class=&#34;tg-1wig&#34;&gt;&lt;span style=&#34;font-weight:700;font-style:normal&#34;&gt;DST&lt;/span&gt;&lt;/th&gt;
+    &lt;th class=&#34;tg-1wig&#34;&gt;&lt;span style=&#34;font-weight:700;font-style:normal&#34;&gt;SRC IP&lt;/span&gt;&lt;/th&gt;
+    &lt;th class=&#34;tg-1wig&#34;&gt;DST IP&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;B&lt;/td&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;D&lt;/td&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;197.0.0.1&lt;/td&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;197.0.0.2&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;B&lt;/td&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;C&lt;/td&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;194.0.0.2&lt;/td&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;194.0.0.1&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;B&lt;/td&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;A&lt;/td&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;195.0.0.2&lt;/td&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;195.0.0.1&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;C&lt;/td&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;A&lt;/td&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;193.0.0.1&lt;/td&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;193.0.0.2&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;small&gt;SRC: Source DST: Destination&lt;/small&gt;
+		&lt;/li&gt;
+&lt;!-- 		&lt;ul&gt;
+	&lt;li&gt;&lt;b&gt;Router B:&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt; --&gt;
+&lt;/li&gt;
+		&lt;li&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;Connect a PC to the router A at 196.0.0.1.  Name the PC as STUDENTPC and assign the PC with the following IP address: 196.0.0.2.&lt;/p&gt;&lt;/li&gt;
+		&lt;li&gt; &lt;p style=&#34;text-align: justify;&#34;&gt;Create VLANs with the following configuration:&lt;/p&gt;
+			&lt;table class=&#34;table&#34;&gt;
+&lt;thead&gt;
+  &lt;tr&gt;
+    &lt;th class=&#34;tg-1wig&#34;&gt;VLAN NAME&lt;/th&gt;
+    &lt;th class=&#34;tg-1wig&#34;&gt;VLAN NUMBER&lt;/th&gt;
+    &lt;th class=&#34;tg-1wig&#34;&gt;IP&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;INSTRUCTORS&lt;/td&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;14&lt;/td&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;192.168.40.5&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;PRINTERS&lt;/td&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;17&lt;/td&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;192.168.60.5&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;p style=&#34;text-align: justify;&#34;&gt;You need to configure inter-VLAN routing. In addition, remember to configure trunk and access ports appropriately.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+		&lt;/li&gt;
+		&lt;li&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;Connect two PCs to the VLAN INSTRUCTORS. One PC is labelled RNITINSTRUCTORS and has an IP address of 192.168.40.1; the second PC is labelled RNITADMIN and has an IP address of 192.168.40.2.&lt;/p&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;Connect a printer to the VLAN PRINTERS and assign the name RNITLABPRINTER and an IP address of 192.168.60.1 to the printer.&lt;/p&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;Two computers are connected physically to the router C via a switch. The first computer is named RNITLABPC1 and has an IP address of 192.168.30.5. The second computer, similarly, has the name RNITLABPC2 and an IP address of 192.168.30.6.&lt;/p&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;&lt;br/&gt;
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    &lt;p style=&#34;text-align: justify;&#34;&gt;To enable communication between the end devices connected to routers C and A and the end device at the AS2, you must define the route. You can use the following command:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ip route 0.0.0.0 0.0.0.0 nexthop&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Note: The configuration has to be done at routers C and A.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+	&lt;li&gt; &lt;b&gt;AS2&lt;/b&gt;
+		&lt;ul&gt;
+			&lt;li&gt;Assign the number 2000 to AS2&#39;s AS number.&lt;/li&gt;
+		&lt;li&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;Assign the router the IP address 197.0.0.2 and configure it to connect to router B from AS1 at 197.0.0.1 via the BGP protocol. &lt;/li&gt;
+		&lt;li&gt;Give the router the following name: RNITROUTERD.&lt;/li&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;Connect a PC to the router at the following IP address: 198.0.0.1. The PC should be named AS1PC and have an IP address of 198.0.0.2.&lt;/p&gt;&lt;/li&gt;&lt;br/&gt;
+			&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    The AS1PC at AS2 should be able to communicate with all the end devices at AS1.
+  &lt;/div&gt;
+&lt;/div&gt;
+		
+	&lt;/ul&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Test all your connections to make sure you are able to communicate between AS1 and AS2 end devices.&lt;/li&gt;
+ 	&lt;/ul&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;final-network&#34;&gt;Final Network&lt;/h2&gt;
+&lt;p&gt;The final network should look similar to that of the one presented in Figure 2.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-2-final-network&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../final_result.png&#34; alt=&#34;Figure 2: Final network&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 2: Final network
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;useful-commands&#34;&gt;Useful Commands&lt;/h2&gt;
+&lt;p&gt;You can use the following commands for the BGP and EIGRP protocols:
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;EIGRP configuration&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;router eigrp ASNo&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;BGP configuration&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;router bgp ASNo&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Advertising routes&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;network IP (subnet)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Advertising neighbour&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;neighbor IP remoteASNo&lt;/code&gt;&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Evaluation</title>
+      <link>/getstarted/instructions/evaluation/</link>
+      <pubDate>Sun, 22 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>/getstarted/instructions/evaluation/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
+The Packet Tracer file that has been provided contains the automated test cases. As you progress with the task, the evaluation is made automatically, and the score is assigned accordingly. A total of 37 points are awarded. Figure 1 shows the breakdown of the scores, which you can always check by clicking the &#34;check score&#34;.
+&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-1-evaluation&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../evaluation.png&#34; alt=&#34;Figure 1: Evaluation&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 1: Evaluation
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+In short, all the network components should be able to communicate with each other as shown in Figures 2, 3, and 4, respectively.
+&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-2-test-sceanrio-1&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../labpc1.png&#34; alt=&#34;Figure 2: Test sceanrio 1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 2: Test sceanrio 1
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-3-test-sceanrio-2&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../rnitadmin.png&#34; alt=&#34;Figure 3: Test sceanrio 2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 3: Test sceanrio 2
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-4-test-sceanrio-3&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../student.png&#34; alt=&#34;Figure 4: Test sceanrio 3&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 4: Test sceanrio 3
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;p style=&#34;text-align: justify;&#34;&gt;If you have connected everything correctly and are able to communicate across the network, but the test cases still fail, it is fine.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>
